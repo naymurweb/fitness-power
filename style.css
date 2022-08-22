@@ -28,6 +28,18 @@ svg {
     font-weight: bold;
 }
 
+.btn-1 {
+    font-size: 16px;
+    padding: 10px 20px;
+    font-weight: bold;
+    background-color: #E21717;
+    color: white;
+    margin: 10px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 30px;
+}
+
 .header-section {
     background-color: #222;
     color: white;
@@ -72,4 +84,31 @@ svg {
 
 .hero-desciption h3 {
     color: #E21717;
+}
+
+.title {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-1 {
+    border: 1px solid gray;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+}
+
+.card-1 img {
+    width: 25%;
+}
+
+.look-section {
+    padding: 80px 80px;
 }
