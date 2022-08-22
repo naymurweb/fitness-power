@@ -1,3 +1,31 @@
-body{
+body {
     font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.header-section {
+    background-color: #222;
+    color: white;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+}
+
+.navbar li a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: white;
 }
