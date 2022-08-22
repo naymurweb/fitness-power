@@ -1,6 +1,11 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
-    margin: 0%;
+
 }
 
 .container {
@@ -43,6 +48,7 @@ svg {
 .header-section {
     background-color: #222;
     color: white;
+    padding: 25px 0;
 }
 
 .main-header {
@@ -79,7 +85,10 @@ svg {
 
 .hero-desciption h1 {
     font-size: 50px;
-    margin: 0%;
+}
+
+.hero-desciption p {
+    margin: 20px 0;
 }
 
 .hero-desciption h3 {
@@ -111,4 +120,40 @@ svg {
 
 .look-section {
     padding: 80px 80px;
+}
+
+.about-section {
+    padding: 60px 0px;
+    background-color: #222;
+    color: white;
+}
+
+.about-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-img {
+    width: 50%;
+    display: flex;
+    padding: 30px;
+}
+
+.about-img img {
+    width: 45%;
+    transform: skewY(-15deg);
+}
+
+.about-text {
+    width: 50%;
+}
+
+.about-text h1 {
+    font-size: 40px;
+}
+
+.about-text h3 {
+    color: #E21717;
+    margin: 20px 0;
 }
